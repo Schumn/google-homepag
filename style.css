@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+input,
+button {
+    border-style: none;
+    outline-style: none;
+}
+button {
+    cursor: pointer;
+    padding: 0;
+}
+.logo {
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 20px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botsearch {
+    display: flex;
+    justify-content: center;
+}
+.g {
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    margin: 5px;
+    margin-top: 30px;
+}
+.g:hover {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+}
+.head {
+    padding-top: 18px;
+    width: auto;
+    height: 40px;
+    margin-right: 15px;
+}
+.top-navbar {
+    display: flex;
+    color: #5f6368;
+    font-size: 13px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.material-icons {
+    display: flex;
+    justify-self: start;
+    color: #a1a1a1;
+    
+}
+main {
+    width: 100vw;
+    height: 700px;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    margin: 0 auto;
+    align-items: center;
+}
+.input {
+    width: 500px;
+}
+.bot {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #70757a;
+}
+.bot-nav1 > a:hover {
+    text-decoration: underline;
+}
+.bot-nav2 > a:hover {
+    text-decoration: underline;
+}
+.top:hover {
+    text-decoration: underline;
+}
+.top {
+    color: rgb(39, 39, 39);
+    margin-right: 20px;
+}
+#acc {
+    width: 20px;
+    height: 30px;
+}
+.bottom {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+}
+.bot-nav1 {
+    display: flex;
+    padding-left: 20px;
+}
+.bot-nav2 {
+    display: flex;
+    padding-right: 20px;
+}
